@@ -30,7 +30,7 @@ jobs:
       - name: Fetch Secrets From Conjur Cloud
         uses: cyberark/conjur-action@v2.1.0
         with:
-          url: https://anzmislab.cyberark.cloud.cyberark.cloud/api
+          url: https://anzmislab.cyberark.cloud/api
           account: conjur
           authn_id: praveengithub
     #      host_id: 'host/data/apps/cicd-apps/github/Workflow-App1'
