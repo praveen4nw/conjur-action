@@ -34,7 +34,7 @@ jobs:
           account: conjur
           authn_id: praveengithub
     #      host_id: 'host/data/apps/cicd-apps/github/Workflow-App1'
-          secrets: 'data/vault/pr-secret-safe-default/Demomysqlaccount/password|MY_DB_PASSWORD;data/vault/pr-secret-safe-default/Demomysqlaccount/address|MY_DB_ADDRESS;data/vault/pr-secret-safe-default/Demomysqlaccount/username|MY_DB_USERNAME'
+          secrets: 'data/vault/pr-secret-safe-default/Database-pr-postgreSQL-Demomysqlaccount-Demomysqlaccount/password|MY_DB_PASSWORD;data/vault/pr-secret-safe-default/Database-pr-postgreSQL-Demomysqlaccount-Demomysqlaccount/address|MY_DB_ADDRESS;data/vault/pr-secret-safe-default/Database-pr-postgreSQL-Demomysqlaccount-Demomysqlaccount/username|MY_DB_USERNAME'
 
       - name: Verify Secret Fetch
         run: |
