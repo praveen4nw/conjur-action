@@ -41,9 +41,9 @@ jobs:
       - name: Verify Secret Fetch
         run: |
           echo "The runner successfully fetched the secrets!"
-          echo "Database username fetched securely: $MY_DB_USERNAME"
-          echo "Database address fetched securely: $MY_DB_ADDRESS"
-          echo "Database password fetched securely: $MY_DB_PASSWORD"
+          echo "Database username fetched the securely: $MY_DB_USERNAME"
+          echo "Database address fetched the securely: $MY_DB_ADDRESS"
+          echo "Database password fetched the securely: $MY_DB_PASSWORD"
           
           echo "---------------------------------------------------"
           echo "TEMPORARY TESTING DEBUGS (Remove after verification)"
